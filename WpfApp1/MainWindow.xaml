@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Image HorizontalAlignment="Left" ToolTip="Ситема уравнений, по которой буду вычсиляться результаты" Height="100" Margin="219,23,0,0" VerticalAlignment="Top" Width="341"
+               Source="C:\agents\lkek.png"/>
+        <TextBox HorizontalAlignment="Left" ToolTip="Введите сюда целочисленное, которое будет выполнять роль Х" Height="23" Margin="80,156,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" ToolTip="Введите сюда целочисленное, которое будет выполнять роль Y" Height="23" Margin="80,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" ToolTip="Отсюдова вылезет ваш ответ" Height="20" Margin="80,349,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="x" HorizontalAlignment="Left" Margin="49,153,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.875,0.538" Width="16"/>
+        <Label Content="m" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,195,0,0"/>
+        <Label Content="Ответ" HorizontalAlignment="Left" Margin="27,343,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="sh(x)" ToolTip="Выберите один из трех элементов, который вы хотите найти" HorizontalAlignment="Left" Margin="80,250,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="x^2" ToolTip="Выберите один из трех элементов, который вы хотите найти" HorizontalAlignment="Left" Margin="80,281,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="e^x" ToolTip="Выберите один из трех элементов, который вы хотите найти" HorizontalAlignment="Left" Margin="80,311,0,0" VerticalAlignment="Top"/>
+        <Button Content="Вычислить" ToolTip="нажмите, чтобы вычислить" HorizontalAlignment="Left" Margin="245,250,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Очистить" ToolTip="Нажмите, чтобы очистить значения" HorizontalAlignment="Left" Margin="245,293,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
